@@ -1,0 +1,165 @@
+
+.main{
+    padding: 0;
+}
+
+header{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.logos{
+    min-height: 50px;
+    background-color: antiquewhite;
+}
+
+.logo-blog{    
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.logo-blog img{
+    width: 80px;
+}
+
+.redes-sociales{
+    background-color:aquamarine;
+    text-align: center;
+    padding: 0;
+    margin-top: 69px;
+}
+
+.fa {
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    padding-top: 3px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+nav{
+    margin: 5px 50px;
+}
+
+ul{
+}
+
+section{
+    min-height: 150px;
+    background-color: bisque;
+}
+
+article{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+.articulos{
+    color: white;
+    background-color: #999;
+}
+
+.buscador{
+    background-color: #eee;
+    color: white;
+}
+
+.formulario{
+    background-color: cadetblue;
+    min-height: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0.5em;
+}
+
+.icono{
+    background-color: #eee;
+    font-size: 30px;
+    width:40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    color: black;
+}
+
+.cont-imagen img{
+    box-shadow: 2px 2px 5px #000;
+}
+
+#enc-buscador{
+    text-align: center;
+    color: #999;
+}
+
+.buscador input{
+}
+
+.buscador ul{
+    margin-top: 10px;
+}
+
+.buscador ul li{
+    background-color: mediumaquamarine;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+
+
+
+@media (max-width:1199px){
+}
+
+@media (max-width: 991px){
+    .ocultar{
+        display: none;
+    }
+    .img-responsive{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:767px){
+
+    .redes-sociales{
+        margin: 0;
+        padding: 0.5em;
+    }
+}
